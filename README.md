@@ -48,6 +48,14 @@
   ```javascript
   $("input[type='text']").val("Hello"); // Sets value for text input elements
   ```
+- **Using Function:**
+```javascript
+  $(document).ready(function() {
+    $("#toggleButton").click(function() {
+        $("#myDiv").toggle(); // Toggles the visibility of the div with id 'myDiv'
+    });
+  });
+ ```
 
 **Slide 6: jQuery Selectors**
 - **Basic Selector:**
